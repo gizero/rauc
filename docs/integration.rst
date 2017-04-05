@@ -279,7 +279,7 @@ tool, or by using the ``bundle.bbclass`` that handles most of the basic steps,
 automatically.
 
 First, create a bundle recipe in your BSP layer. A possible location for this
-could be ``meta-your-pbsp/recipes-core/bundles/update-bundle.bb``.
+could be ``meta-your-bsp/recipes-core/bundles/update-bundle.bb``.
 
 To create your bundle you first have to inherit the bundle class::
 
